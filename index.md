@@ -13,8 +13,9 @@ Hello World!
 3. list
 Horizontal Rule:
 ------
-'Inline Code with backticks'
-...
-#code block
+`Inline code` with backticks
+```
+# code block
 print '3 backticks or'
 print 'indent 4 spaces'
+```
