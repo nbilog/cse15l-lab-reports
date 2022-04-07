@@ -1,8 +1,8 @@
 Hello World!
 # This is heading 1
 ## This is heading 2
-*This is Italicized* \\
-**This is bolded** \\
+*This is Italicized* 
+**This is bolded** 
 [This is a link] (https://commonmark.org/help/)
 > This is a blockquote
 * This is a list
