@@ -54,7 +54,14 @@ Here are some useful commands to try:
 - `cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/`
 - `cat /home/linux/ieng6/cs15lsp22/public/hello.txt`  
   
-Here is an example of what these commands look like:
+Here is an example of what these commands look like:  
+  
+![pic2](pic2.JPG)  
+  
+If you want to log out of the remote server in your terminal, you can use:
+- Ctrl + D
+- Run the command `exit`
+
 
   
 
