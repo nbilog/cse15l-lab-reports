@@ -62,6 +62,30 @@ If you want to log out of the remote server in your terminal, you can use:
 - Ctrl + D
 - Run the command `exit`
 
+## Step 4: Moving Files with `scp`
+Now that we have learned to do some work on local and remote computers, one key step in _working remotely_ is being able to copy files back and forth between the computers. In order to do so we will be using the command called `scp`, and we will always run it from the _client_ (YOUR computer). Create a file on your computer called `WhereAmI.java` and put the following code into it:
+```
+class WhereAmI {
+  public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));
+  }
+}
+```
+Run it using `javac` and `java` on your computer. You should be seeing different contents from your own computer.  
+  
+Next, in the terminal from the directory where you made this file, run this command (replacing zz with your username):  
+  
+`scp WhereAmI.java cs15lsp22zz@ieng6.ucsd.edu:~/`  
+  
+You should be prompted for a password.  
+  
+Now, log back into ieng6 with ssh again, and type the command `ls`. Now you will see the file that you created in your own computer in the home directory of the _ieng6_ computer. You will be able to now run that file on the _ieng6 computer_ using `javac` and `java`.  
+  
+Here is an example of what that process should look like:  
+  
 
   
 
