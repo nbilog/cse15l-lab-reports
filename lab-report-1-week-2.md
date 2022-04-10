@@ -141,7 +141,38 @@ Make sure you do not add a paraphrase for this step (just press enter).
   
 This is what running these steps in the terminal looks like:  
   
-![pic4]()
+![pic4](pic4.JPG)  
+  
+If on Windows system, follow the extra `ssh-add` steps here:  
+  
+[https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)  
+  
+This creates two new files on your system; the private key (in a file `id_rsa`) and the public key (in a file `id_rsa.pub`), stored in the `.ssh` directory on your computer.  
+  
+The next step is to copy the _public_ key to the `.ssh` directory of your user account on the server.  
+  
+`$ ssh cs15lsp22zz@ieng6.ucsd.edu`  
+  
+`<Enter Password>`  
+  
+`# now on server`  
+  
+`$ mkdir .ssh`  
+  
+`$ <logout>`  
+  
+`# back on client`  
+  
+`$ scp /Users/<user-name>/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys`  
+  
+`# You use your username and the path you saw in the command above`  
+  
+After finishing these steps, when logging in using `ssh` or running `scp`, you won't need to enter your password again.  
+  
+This is what your terminal would look like, as it automatically logs you in without a password:  
+  
+
+
 
 
 
