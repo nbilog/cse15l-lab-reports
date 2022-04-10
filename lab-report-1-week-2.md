@@ -89,6 +89,61 @@ Here is an example of what that process should look like:
 ![pic3](pic3.JPG)  
   
 ## Step 5: Setting an SSH Key
+Every time we log in using `ssh` or run `scp` we have to type our password. It gets frustrating and time consuming having to do this all the time, so we will be using `ssh` keys. The idea behind ssh keys is that a program called `ssh-keygen` creates a pair of files called the `public key` and `private key`. You copy the public key to a particular location on the server, and the private key in a articular location on the client. Then, the `ssh` command can use the pair of files in place of your password.  
+  
+Here is what to run when setting this up:  
+  
+`# on client (your computer)`  
+  
+`$ ssh-keygen`  
+  
+`Generating public/private rsa key pair.`  
+  
+`Enter file in which to save the key (/Users/<user-name>/.ssh/id_rsa): /Users/<user-name>/.ssh/id_rsa`  
+  
+`Enter passphrase (empty for no passphrase):`  
+  
+Make sure you do not add a paraphrase for this step (just press enter).  
+  
+`Enter same passphrase again:`  
+  
+`Your identification has been saved in /Users/<user-name>/.ssh/id_rsa.`  
+  
+`Your public key has been saved in /Users/<user-name>/.ssh/id_rsa.pub.`  
+  
+`The key fingerprint is:`  
+  
+`SHA256:jZaZH6fI8E2I1D35hnvGeBePQ4ELOf2Ge+G0XknoXp0 <user-name>@<system>.local`  
+  
+`The key's randomart image is:`  
+  
+`+---[RSA 3072]----+`  
+  
+`|                 |`  
+  
+`|       . . + .   |`  
+  
+`|      . . B o .  |`  
+  
+`|     . . B * +.. |`  
+  
+`|      o S = *.B. |`  
+  
+`|       = = O.*.*+|`  
+  
+`|        + * *.BE+|`  
+  
+`|           +.+.o |`  
+  
+`|             ..  |`  
+  
+`+----[SHA256]-----+`  
+  
+This is what running these steps in the terminal looks like:  
+  
+![pic4]()
+
+
 
   
 
