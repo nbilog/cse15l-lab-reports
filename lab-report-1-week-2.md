@@ -38,8 +38,23 @@ Type yes and press enter, it will ask for your password and your password is the
   
 After logging in, the whole interaction should look like this:  
   
-
+![pic1](pic1.JPG)
   
+Now your terminal is connected to a computer in the CSE basement, and any commands you run will run on that computer. Your computer is called the _client_ and the computer in the basement is called the _server_.  
+  
+## Step 3: Trying Some Commands
+Try running the commands `cd`, `ls`, `pwd`, `mkdir`, and `cp` a few times in different ways both on _your_ computer, and on the remote computer after doing the ssh command.  
+  
+Here are some useful commands to try:
+- `cd ~`
+- `cd`
+- `ls -lat`
+- `ls -a`
+- `ls <directory> where <directory> is /home/linux/ieng6/cs15lsp22/cs15lsp22abc, where the abc is one of the other group members’ username`
+- `cp /home/linux/ieng6/cs15lsp22/public/hello.txt ~/`
+- `cat /home/linux/ieng6/cs15lsp22/public/hello.txt`  
+  
+Here is an example of what these commands look like:
 
   
 
