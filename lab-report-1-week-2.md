@@ -86,6 +86,9 @@ Now, log back into ieng6 with ssh again, and type the command `ls`. Now you will
   
 Here is an example of what that process should look like:  
   
+![pic3](pic3.JPG)  
+  
+## Step 5: Setting an SSH Key
 
   
 
