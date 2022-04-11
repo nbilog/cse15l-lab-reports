@@ -89,7 +89,7 @@ Here is an example of what that process should look like:
 ![pic3](pic3.JPG)  
   
 ## Step 5: Setting an SSH Key
-Every time we log in using `ssh` or run `scp` we have to type our password. It gets frustrating and time consuming having to do this all the time, so we will be using `ssh` keys. A program called `ssh-keygen` creates a pair of files called the `public key` and `private key`. You copy the public key to a particular location on the server, and the private key in a particular location on the client. Then, the `ssh` command can use the pair of files in place of your password.  
+We need a more efficient way to loggin in to the server, and that is using ssh keys.  
   
 Here is what to run when setting this up:  
   
