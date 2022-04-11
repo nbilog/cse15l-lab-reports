@@ -89,7 +89,7 @@ Here is an example of what that process should look like:
 ![pic3](pic3.JPG)  
   
 ## Step 5: Setting an SSH Key
-Every time we log in using `ssh` or run `scp` we have to type our password. It gets frustrating and time consuming having to do this all the time, so we will be using `ssh` keys. The idea behind ssh keys is that a program called `ssh-keygen` creates a pair of files called the `public key` and `private key`. You copy the public key to a particular location on the server, and the private key in a articular location on the client. Then, the `ssh` command can use the pair of files in place of your password.  
+Every time we log in using `ssh` or run `scp` we have to type our password. It gets frustrating and time consuming having to do this all the time, so we will be using `ssh` keys. A program called `ssh-keygen` creates a pair of files called the `public key` and `private key`. You copy the public key to a particular location on the server, and the private key in a particular location on the client. Then, the `ssh` command can use the pair of files in place of your password.  
   
 Here is what to run when setting this up:  
   
@@ -171,8 +171,14 @@ After finishing these steps, when logging in using `ssh` or running `scp`, you w
   
 This is what your terminal would look like, as it automatically logs you in without a password:  
   
+![pic5](pic5.JPG)  
+  
+## Step 6: Optimizing Remote Running
 
-
+After making an edit to a file in the client, and you want to copy that edited file to the server in a more efficient way here are the steps:
+1. After making an edit, type in `scp <FileName> cs15lsp22zz@ieng6.ucsd.edu:~/` in the terminal.
+2. Next, type in `ssh cs15lsp22zz@ieng6.ucsd.edu "javac <FileName>"` to compile the file in the server.
+3. Lastly, type in `ssh cs15lsp22zz@ieng6.ucsd.edu "java <FileName>"` to run it in the server.
 
 
 
