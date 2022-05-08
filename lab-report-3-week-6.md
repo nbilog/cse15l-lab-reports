@@ -1,6 +1,9 @@
-# Streamlining ssh Configuration
+## Streamlining ssh Configuration
 - .ssh/config file  
 ![streamline1](streamline1.JPG)
 
 - ssh command  
 ![streamline2](streamline2.JPG)
+
+- scp command  
+![streamline3](streamline3.JPG)
