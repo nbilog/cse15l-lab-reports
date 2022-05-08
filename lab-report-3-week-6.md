@@ -9,4 +9,8 @@
 ![streamline3](streamline3.JPG)
 
 ## Setup Github Access from ieng6
--public key on github and user account
+- public key on github and user account  
+![setup1](setup1.JPG)  
+![setup2](setup2.JPG)
+  
+-
