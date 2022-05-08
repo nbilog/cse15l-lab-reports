@@ -15,7 +15,7 @@
   
 ## Copy Whole Directories with scp -r
 - copy of whole markdown-parse directory to ieng6
-![copy1](copy1.JPG)
+![copy4](copy4.JPG)
 - logging into ieng6 account and compiling and running test
 ![copy3](copy3.JPG)
 
