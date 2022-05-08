@@ -18,4 +18,5 @@
 ![copy4](copy4.JPG)
 - logging into ieng6 account and compiling and running test
 ![copy3](copy3.JPG)
-
+- running everything in one line
+![copy5](copy5.JPG)
