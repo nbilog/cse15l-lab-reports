@@ -7,3 +7,6 @@
 
 - scp command  
 ![streamline3](streamline3.JPG)
+
+## Setup Github Access from ieng6
+-public key on github and user account
