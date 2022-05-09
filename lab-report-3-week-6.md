@@ -12,6 +12,8 @@
 - public key on github and user account  
 ![setup1](setup1.JPG)  
 ![setup2](setup2.JPG)
+- private key
+![setup3](setup3.JPG)
   
 ## Copy Whole Directories with scp -r
 - copy of whole markdown-parse directory to ieng6
