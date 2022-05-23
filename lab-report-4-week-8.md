@@ -12,4 +12,10 @@ Code in MarkdownParseTest.java: ![junit](junittestss.JPG)
 
 For my implementation:
 * snippet 1: Test did not pass, ![mytest1](mytest1.JPG)
-* snippet 2: 
+* snippet 2: Test did not pass, ![mytest2](mytest2.JPG)
+* snippet 3: Test did not pass, ![mytest3](mytest3.JPG)
+
+For reviewed code implementation:
+* snippet 1: Test did not pass, ![review1](review1.JPG)
+* snippet 2: Test did not pass, ![review2](review2.JPG)
+* snippet 3: Test did not pass, ![review3](review3.JPG)
