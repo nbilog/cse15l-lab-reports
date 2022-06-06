@@ -14,6 +14,10 @@ Output for LAB9 implementation:
 
 Expected output should be [].
 
+The bug in the LAB9 implementation is that the code runs even when there isn't a closed bracket present in the md file. In order to create a link, it would need correct formatting, therefore, the code should continue running, only if it first sees that there is a closed bracket to begin with.
+
+![codefix1](codefix1.JPG)
+
 [Link to second test file with different results](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/487.html.test)
 
 ## Test 2
@@ -26,3 +30,7 @@ Output for LAB9 implementation:
 ![output2](output2.JPG)
 
 Expected output should be [].
+
+The bug in my implementation is that my code only detects the errors in the formatting of the link, and not the data inside of these brackets and parenthesis. My code would need to make it so that if there is a space in the link part (in the parenthesis), then don't add that link since a space makes it not a link.
+
+![codefix2](codefix2.JPG)
