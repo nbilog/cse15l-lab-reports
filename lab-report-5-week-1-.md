@@ -17,7 +17,7 @@ Expected output should be [].
 [Link to second test file with different results](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/487.html.test)
 
 ## Test 2
-My implementation is correct because it gave a list [/my uri] which should be the link since this test is in correct formatting.
+LAB9 implementation is correct because it gave a an empty list which it should result in since a space in a link makes it not a link.
 
 Output for my implementation:
 ![myoutput2](myoutput2.JPG)
@@ -25,4 +25,4 @@ Output for my implementation:
 Output for LAB9 implementation:
 ![output2](output2.JPG)
 
-Expected output should be [\my url].
+Expected output should be [].
